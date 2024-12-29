@@ -1,0 +1,17 @@
+#waybar {
+	background-color: rgba(0,0,0,0.85);
+	color:  #ffffff;
+}
+
+#workspaces button label {
+	color: #ffffff;
+}
+
+#idle_inhibitor.activated {
+	background-color: #285577;
+}
+
+*{
+	font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif, SymbolsNerdFont-Mono;
+ 	font-size: 14px;
+}
