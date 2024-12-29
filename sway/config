@@ -249,7 +249,7 @@ bar {
 
 # add rounded corners
 
-corner_radius 9
+#corner_radius 9
 
 # attempt to remove titlebars
 
@@ -268,12 +268,12 @@ bindsym $mod+p exec grim -t png - | wl-copy -t image/png # auto capture full scr
 # enable blur
 
 #blur enable
-blur_passes 2
-blur_radius 2
-blur_noise 0.02
-blur_brightness 0.9
-blur_contrast 0.9
-blur saturation 1.1
+#blur_passes 2
+#blur_radius 2
+#blur_noise 0.02
+#blur_brightness 0.9
+#blur_contrast 0.9
+#blur saturation 1.1
 
 # enable blur on waybar
 
@@ -288,5 +288,5 @@ seat seat0 xcursor_theme Adwaita 24
 exec_always fcitx5
 
 # enable numpad by default
-
-input <6700:8484:SEM_USB_Keyboard_System_Control> xkb_numlock enabled # disable to disable, duh
+ 
+input type:keyboard xkb_numlock enabled 
